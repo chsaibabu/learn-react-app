@@ -18,6 +18,7 @@ function HelloWorld(props) {
           * <div id="myApp" class="bg-dark" title="My App">Hello World</div>
           * VirtualDOM -> Represent UI Kept in memory { type: "div", props: {id: "myApp", className:"bg-dark", title: "My App"}, children: ['Hello World']  }
           */// <div id="myApp" class="bg-dark" title="My App">Hello World</div>
+          React.createElement('div',null,'Hello World')
     );
 }
 
