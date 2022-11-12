@@ -46,6 +46,7 @@ function CompanyProfile(props) {
                      * 🧭 Remember to use curly braces inside the div to render
                      * any text content you want
                      */
+                    Object.keys(companyProfileInfo).map((key,idx) => <div> {key} :{companyProfileInfo[key]}</div>)
                 }
             </div>
         </div>
