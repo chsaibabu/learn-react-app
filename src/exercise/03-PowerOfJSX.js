@@ -22,10 +22,11 @@ function CompanyProfile(props) {
 
     return (
         <div>
-            <div>Profile of: {/**✏️ display stock ticker here*/}</div>
+            <div>Profile of: {stockTicker}</div>
             <hr/>
             <div>
                 {
+                    
                     /**
                      * ✏️ 
                      * This block is surrounded by curly braces {} so 

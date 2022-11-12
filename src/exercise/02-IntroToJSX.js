@@ -8,13 +8,16 @@ import React from 'react';
  */
 function HelloWorld(props){
     return (
+        <div>
+            HelloWorld
+        </div>
         /**
          * ✏️ 
          * Instead of returning null you would need to return a React element
          * Unlike earlier exercise where you returned React.createElement
          * here you should use JSX to return a div with 'Hello World'
          */
-        null
+       
     );
 }
 
